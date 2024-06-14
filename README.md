@@ -1,4 +1,6 @@
 # angular-map
-# liste des établissements scolaires à Toulouse basée sur une API
+# API
 # carte leaflet
 # formulaire de contact
+
+// liste écoles de Toulouse sur carte + formulaire contact

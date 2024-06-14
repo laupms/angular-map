@@ -1,0 +1,22 @@
+/* CARTE */
+#map{
+    height: 50em;
+    width: 100%;
+    margin: auto;  
+    border: 2px solid #000;
+}
+
+ .map-wrapper{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 50px;
+}
+
+#container{
+    background-color: #00000062;
+    margin: 10px 50px;
+    padding: 10px;
+}

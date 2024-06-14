@@ -1,0 +1,118 @@
+@import "../node_modules/leaflet/dist/leaflet.css";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(to right, rgb(35, 35, 41) 20%, rgb(50, 51, 62) 100%);
+}
+
+/*TITRAILLES*/
+h1{
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    color: rgb(201, 201, 201);
+    background-color: #00000062;
+    padding: 20px 0;
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+}
+
+/*HEADER*/
+header{
+    background-color: #00000062;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+}
+#title{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 24px;
+}
+
+/*MENU PRINCIPAL*/
+#main-menu{
+    display: flex;
+}
+.menu-item:first-child{
+    margin-left: 30px;
+}
+.menu-item{
+    list-style: none;
+    padding: 20px;
+}
+.menu-item a{
+    color: rgb(201, 201, 201);
+    text-decoration: none;
+}
+.menu-item a:hover{
+    color: #fff;
+}
+
+/*MAIN*/
+#main-container{
+    margin-top: 6em;
+}
+
+p{
+    color: rgb(255, 255, 255);
+}
+
+/*POPUP MARKER*/
+#bt_contact{
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(39, 39, 39);
+    color: rgb(201, 201, 201);
+    border-radius: 5px;
+}
+
+#bt_contact:hover{
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0.5px 0.5px 3px #00000062;;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #00000062;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+.footer-item a{
+    text-decoration: none;
+    color: rgb(201, 201, 201);
+    margin-left: 20px;
+}
+
+.footer-item a:hover{
+    color: #fff;
+}
+
+footer p{
+    color: rgb(201, 201, 201);
+    text-align: end;
+    padding-right: 10px;
+}
+#icons{
+    list-style: none;
+    color: rgb(201, 201, 201);
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 8px;
+}

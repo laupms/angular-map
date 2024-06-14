@@ -1,0 +1,111 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* TITRES */
+h2{
+    margin: auto;
+}
+
+/* FORMULAIRE */
+p{
+    color: black;
+}
+label{
+    padding-right: 20px;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+}
+input,textarea{
+    padding: 8px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    outline-color: #000;
+    border-radius: 3px;
+}
+
+input:hover{
+    border-color: #000;
+    border-style: solid;
+}
+
+textarea{
+    height: 80px;
+    resize: none;
+}
+
+#conditions{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    accent-color: #000;
+}
+
+    /* TABLEAU */
+table{
+    background-color: #c5c5c5;
+    border: 2px solid #ffffff82;
+    padding: 20px;
+    margin: 20px 0 20px 0;
+}
+
+td{
+    padding: 10px;
+    text-align: end;
+}
+
+/* BOUTON */
+#bt_retour{
+    display: block;
+    text-decoration: none;
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+    margin: 30px;
+    background-color: #00000062;
+    color: rgb(201, 201, 201);
+    border-radius: 5px;
+}
+
+#bt_retour:hover{
+    color: #fff;
+}
+
+#bt_envoyer{
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+    width: 50%;
+    padding: 5px;
+    background-color: rgb(39, 39, 39);
+    color: rgb(201, 201, 201);
+    border-radius: 5px;
+}
+
+#bt_envoyer:hover{
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0.5px 0.5px 3px #00000062;;
+}
+
+#condition-g{
+    color: #000;
+}
+
+#condition-g:hover{
+    color: #fff;
+}
+
+/*LOGO RETOUR*/
+#return{
+    width: 15px;
+    padding: 0px 5px;
+}

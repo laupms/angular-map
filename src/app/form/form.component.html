@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+    </head>
+    <body>
+        <a id="bt_retour" href="/"><img id="return" src="/assets/return.svg" alt="flèche retour"> Retour à la carte</a>
+  
+        <h2>Formulaire de contact</h2>
+ 
+        <form [formGroup]="userForm" id="form">
+            <table>
+                <tr>
+                    <td>
+                        <label id="nom" for="nom">Nom</label>
+                    </td>
+                    <td>
+                        <input formControlName="nom" placeholder="Votre nom" name="nom">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="prenom" for="prenom">Prénom</label>
+                    </td>
+                    <td>
+                        <input formControlName="prenom" placeholder="Votre prénom" name="prenom">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="email" for="email">Email</label>
+                    </td>
+                    <td>
+                        <input formControlName="email" placeholder="Votre email" name="email">
+                    </td>
+                </tr>
+                <br>
+                <tr>
+                    <td>
+                        <label id="objet" for="objet">Objet du contact</label>
+                    </td>
+                    <td>
+                        <input formControlName="objet" placeholder="Objet de votre demande" name="objet">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="msg" for="msg">Message</label>
+                    </td>
+                    <td>
+                        <textarea formControlName="msg" placeholder="Votre message" name="msg"></textarea>
+                    </td>
+                </tr>
+                <br>
+                <tr>
+                    <td>
+                        <input id="conditions" for="conditions" type="checkbox" name="conditions">
+                    </td>
+                    <td>
+                        <p>En cochant cette case, vous acceptez les <a id="condition-g" href="#">Conditions générales d'utilisation</a>.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <a href="#" id="bt_envoyer" type="submit">Envoyer</a>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
